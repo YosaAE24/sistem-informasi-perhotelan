@@ -116,7 +116,7 @@ public class Main {
 		// read data from file
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataKamar.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataKamar.txt");
 			Scanner input = new Scanner(file);
 			while (input.hasNext()) {
 				print(input.nextLine());
@@ -136,7 +136,7 @@ public class Main {
 		// read data from file with buffered reader
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataPenyewa.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataPenyewa.txt");
 			BufferedReader input = new BufferedReader(new FileReader(file));
 			String line;
 			while ((line = input.readLine()) != null) {
@@ -158,7 +158,7 @@ public class Main {
 		// read data from dataTransaksi.txt
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataTransaksi.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataTransaksi.txt");
 			Scanner input = new Scanner(file);
 			while (input.hasNext()) {
 				print(input.nextLine());
@@ -176,7 +176,7 @@ public class Main {
 		// read data from file with buffered reader
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\single.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\single.txt");
 			BufferedReader input = new BufferedReader(new FileReader(file));
 			String line;
 			while ((line = input.readLine()) != null) {
@@ -194,7 +194,7 @@ public class Main {
 		// read data from file with buffered reader
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\double.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\double.txt");
 			BufferedReader input = new BufferedReader(new FileReader(file));
 			String line;
 			while ((line = input.readLine()) != null) {
@@ -212,7 +212,7 @@ public class Main {
 		// read data from file with buffered reader
 		try {
 			File file = new File(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\suite.txt");
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\suite.txt");
 			BufferedReader input = new BufferedReader(new FileReader(file));
 			String line;
 			while ((line = input.readLine()) != null) {
@@ -255,7 +255,7 @@ public class Main {
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(
-					"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataKamar.txt"));
+					"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataKamar.txt"));
 			String line;
 			while ((line = br.readLine()) != null) {
 				print(line);
@@ -355,7 +355,7 @@ public class Main {
 			BufferedWriter bw = null;
 			try {
 				bw = new BufferedWriter(new FileWriter(
-						"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataPenyewa.txt",
+						"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataPenyewa.txt",
 						true));
 				bw.write("========= PEMBAYARAN =========");
 				bw.newLine();
@@ -363,7 +363,7 @@ public class Main {
 				bw.newLine();
 				bw.write("Jenis Kamar\t\t: " + room);
 				bw.newLine();
-				bw.write("Hari\t\t\t: " + hari);
+				bw.write("Lama menginap\t\t\t: " + hari);
 				bw.newLine();
 				bw.write("Nomor KTP\t\t: " + noKtp);
 				bw.newLine();
@@ -402,7 +402,7 @@ public class Main {
 			BufferedWriter bw2 = null;
 			try {
 				bw2 = new BufferedWriter(new FileWriter(
-						"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\dataTransaksi.txt",
+						"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\dataTransaksi.txt",
 						true));
 				bw2.write("========= TRANSAKSI ===========");
 				bw2.newLine();
@@ -410,7 +410,7 @@ public class Main {
 				bw2.newLine();
 				bw2.write("Jenis Kamar\t\t: " + room);
 				bw2.newLine();
-				bw2.write("Hari\t\t\t: " + hari);
+				bw2.write("Lama menginap\t\t\t: " + hari);
 				bw2.newLine();
 				if (nomorKamar == 1) {
 					totalPembayaran = singelRoomPrice * hari;
@@ -442,7 +442,7 @@ public class Main {
 				BufferedWriter bw3 = null;
 				try {
 					bw3 = new BufferedWriter(new FileWriter(
-							"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\single.txt",
+							"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\single.txt",
 							true));
 					bw3.write("========= SINGLE ROOM =========");
 					bw3.newLine();
@@ -450,7 +450,7 @@ public class Main {
 					bw3.newLine();
 					bw3.write("Jenis Kamar\t\t: " + room);
 					bw3.newLine();
-					bw3.write("Hari\t\t\t: " + hari);
+					bw3.write("Lama menginap\t\t\t: " + hari);
 					bw3.newLine();
 					bw3.write("Nomor KTP\t\t: " + noKtp);
 					bw3.newLine();
@@ -489,7 +489,7 @@ public class Main {
 				BufferedWriter bw4 = null;
 				try {
 					bw4 = new BufferedWriter(new FileWriter(
-							"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\double.txt",
+							"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\double.txt",
 							true));
 					bw4.write("========= DOUBLE ROOM =========");
 					bw4.newLine();
@@ -497,7 +497,7 @@ public class Main {
 					bw4.newLine();
 					bw4.write("Jenis Kamar\t\t: " + room);
 					bw4.newLine();
-					bw4.write("Hari\t\t\t: " + hari);
+					bw4.write("Lama menginap\t\t\t: " + hari);
 					bw4.newLine();
 					bw4.write("Nomor KTP\t\t: " + noKtp);
 					bw4.newLine();
@@ -536,7 +536,7 @@ public class Main {
 				BufferedWriter bw5 = null;
 				try {
 					bw5 = new BufferedWriter(new FileWriter(
-							"C:\\Users\\vince\\IdeaProjects\\sistem-informasi-perhotelan\\src\\com\\company\\room\\suite.txt",
+							"C:\\Users\\YOSA\\sistem-informasi-perhotelan\\src\\com\\company\\room\\suite.txt",
 							true));
 					bw5.write("========= SUITE ROOM =========");
 					bw5.newLine();
@@ -544,7 +544,7 @@ public class Main {
 					bw5.newLine();
 					bw5.write("Jenis Kamar\t\t: " + room);
 					bw5.newLine();
-					bw5.write("Hari\t\t\t: " + hari);
+					bw5.write("Lama menginap\t\t\t: " + hari);
 					bw5.newLine();
 					bw5.write("Nomor KTP\t\t: " + noKtp);
 					bw5.newLine();

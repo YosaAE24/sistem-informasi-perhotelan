@@ -1,32 +1,21 @@
 ========= TRANSAKSI ===========
-Nama			: SincanMaulana
-Jenis Kamar		: Suite
-Hari			: 10
+Nama			: Yosa
+Jenis Kamar		: Single
+Hari			: 3
 
 --------------------------------
-TOTAL TAGIHAN: 3000000 IDR / 10 hari
+TOTAL TAGIHAN: 525000 IDR / 3 hari
 
 --------------------------------
 ===============================
 
 ========= TRANSAKSI ===========
-Nama			: AldiIndra
-Jenis Kamar		: Single
+Nama			: YosaAdytiaP
+Jenis Kamar		: Double
 Hari			: 2
 
 --------------------------------
-TOTAL TAGIHAN: 350000 IDR / 2 hari
-
---------------------------------
-===============================
-
-========= TRANSAKSI ===========
-Nama			: sincan
-Jenis Kamar		: Suite
-Hari			: 10
-
---------------------------------
-TOTAL TAGIHAN: 3000000 IDR / 10 hari
+TOTAL TAGIHAN: 450000 IDR / 2 hari
 
 --------------------------------
 ===============================

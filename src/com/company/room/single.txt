@@ -1,0 +1,15 @@
+========= SINGLE ROOM =========
+Nomor Kamar		: 1
+Jenis Kamar		: Single
+Hari			: 3
+Nomor KTP		: 2134556666
+Nama			: Yosa
+Alamat			: Adytia
+Nomor Telepon	: P
+
+--------------------------------
+TOTAL TAGIHAN: 525000 IDR / 3 hari
+
+--------------------------------
+===============================
+

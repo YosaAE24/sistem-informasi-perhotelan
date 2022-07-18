@@ -1,0 +1,15 @@
+========= DOUBLE ROOM =========
+Nomor Kamar		: 2
+Jenis Kamar		: Double
+Hari			: 2
+Nomor KTP		: 667187216128712
+Nama			: YosaAdytiaP
+Alamat			: Ponorogo
+Nomor Telepon	: 9129818129
+
+--------------------------------
+TOTAL TAGIHAN: 450000 IDR / 2 hari
+
+--------------------------------
+===============================
+
